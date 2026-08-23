@@ -14,8 +14,8 @@ class SWPatch
     static int Main(string[] args)
     {
         string exePath = args.Length > 0 ? args[0] : @"C:\Program Files\VITURE\SpaceWalker\SpaceWalker.exe";
-        string outPath = args.Length > 1 ? args[1] : @"C:\Users\<user>\zdlRepository\playground\spacewalker_patch\SpaceWalker.exe.patched";
-        string tmp = args.Length > 2 ? args[2] : @"C:\Users\<user>\zdlRepository\playground\spacewalker_patch\bundle_extracted";
+        string outPath = args.Length > 1 ? args[1] : @"C:\Users\<user>\zdlRepository\viture_patch\spacewalker_patch\SpaceWalker.exe.patched";
+        string tmp = args.Length > 2 ? args[2] : @"C:\Users\<user>\zdlRepository\viture_patch\spacewalker_patch\bundle_extracted";
         exeBytes = File.ReadAllBytes(exePath);
         Console.WriteLine("exe size: 0x" + exeBytes.Length.ToString("X"));
 
