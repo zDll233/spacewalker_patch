@@ -9,6 +9,7 @@ VITURE SpaceWalker 的 120Hz 解锁方案(Windows):眼镜 **2D 视窗 120Hz** + 
 ```
 spacewalker_patch/
 ├─ make_patched.bat     克隆后一键重建补丁 exe(.orig/.patched 不进 git)
+├─ cleanup_vdd.bat      残留虚拟显示器清理(自动 UAC 提权 → 重启 VDA 驱动)
 ├─ install_sw.bat       安装补丁(路径配置 + 备份 .orig + 字节校验;需管理员)
 ├─ restore_sw.bat       回滚到原版
 ├─ boost.bat            日常:SW 未运行则启动 → VDD 升 120 → 退出
@@ -41,7 +42,7 @@ restore_sw.bat            ← 回滚补丁(需管理员)
 3. 构建补丁器并生成 `SpaceWalker.exe.patched`
 4. 然后按正常流程运行 `install_sw.bat` 安装
 
-(需要已安装 SpaceWalker;若想随仓库分发 exe,推荐用 GitHub Releases 挂附件——git 不推荐存 90MB 级二进制。)
+(需要已安装 SpaceWalker。)
 
 **路径设置(首次)**:`install_sw.bat` 按下列顺序确定 SpaceWalker.exe 路径,并保存到 `swpath.txt` 供所有脚本共用:
 
@@ -53,5 +54,4 @@ restore_sw.bat            ← 回滚补丁(需管理员)
 
 ## 其他
 
-- 本项目自包含(SDK/工具/bundle 均在项目内);配套的 Immersive3D 项目在 `..\re_dump\02_immersive3d`
-- 残留虚拟显示器清理(通用):管理员运行 `..\re_dump\02_immersive3d\cleanup_vdd.bat`
+- 残留虚拟显示器清理(通用):管理员运行 `cleanup_vdd.bat`

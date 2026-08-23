@@ -8,8 +8,7 @@
            VDD 集合(每 0.5s 一次,连续 10 次无变化 = 创建完成)→ 把每个
            VDD 切到当前分辨率下的最高刷新率(120Hz)→ 退出。
 
- 02_immersive3d 项目有一份平行的自包含 VDDBoost.ps1(Immersive3D 专用),
- 本脚本只处理 SpaceWalker(读 swpath.txt),互不调用。
+ 本脚本只处理 SpaceWalker(读 swpath.txt),自包含运行。
 
  用法:
    boost.bat / check.bat 内部调用本脚本,无需手动执行。

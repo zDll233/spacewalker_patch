@@ -27,7 +27,7 @@
 ### 固件 HID 模式协议
 
 - 命令:`TF_CMD_NATIVE_DISPLAY_MODE_W = 322`,payload = `R6NewerDisplayMode` 枚举值(1 字节)
-- 前置命令:`TF_CMD_NATIVE_TRACKING_MODE_W = 323,{1}`;i3d 侧还有 `TF_CMD_NATIVE_XR_MODE_W = 320,{1}`
+- 前置命令:`TF_CMD_NATIVE_TRACKING_MODE_W = 323,{1}`;部分应用还会先发 `TF_CMD_NATIVE_XR_MODE_W = 320,{1}`
 - 消息格式:R6NewerHidMessage,64 字节:`ProtoVer(16) Seq MsgID(LE) DataLen(LE) CRC(sum) Payload[56]`
 - 枚举 `R6NewerDisplayMode`(49..66):每 3 个一组 60/90/120 —— 49/50/51=1920_1080,52/53/54=1920_1200,55/56/57=3D_SBS_3840_1080,58/59/60=3D_SBS_3840_1200,61/62/63=ULTRAWIDE_3840_1080,64/65/66=ULTRAWIDE_3840_1200
 
@@ -69,7 +69,7 @@
 |---|---|
 | `patch/swpatch.cs` | Cecil 补丁器:定位 PickNativeDisplayMode → 写 4 字节(只改固件路径!) |
 | `patch/swpatch.csproj` | 引用项目内 Mono.Cecil(`tools\.store\...`) |
-| `VDDBoost.ps1` | 运行时升频 + 体检(自包含,不依赖 i3d 项目) |
+| `VDDBoost.ps1` | 运行时升频 + 体检(自包含) |
 | `bundle_extracted/` | 单文件 bundle 提取(补丁输入源) |
 | `src/` | 反编译参考源码(SpaceWalker 程序集 + VCL) |
 | `archive/` | 废弃中间产物(勿用) |
@@ -77,4 +77,4 @@
 ## 六、调查工具(archive 或共享)
 
 - `tools\bundleextract3.exe <exe> <outdir> <headerHex>`:bundle 提取(manifest: 12B 头 + varint id + 40B + 每条 25B 固定 + varint 路径)
-- 调查工具参考:`..\re_dump\02_immersive3d\archive\experiments\`(hidmode2=直接发 HID 模式命令、vddtest3840=创建 3840 VDD 实测、tryset120=强制升频)——跨项目通用
+- 历史调查工具留档:`archive\`(vdd120、VDD120Switcher、verifyload 等,已废弃,勿用于生产)
