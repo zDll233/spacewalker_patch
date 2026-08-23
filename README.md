@@ -9,7 +9,6 @@ VITURE SpaceWalker 的 120Hz 解锁方案(Windows):眼镜 **2D 视窗 120Hz** + 
 ```
 spacewalker_patch/
 ├─ make_patched.bat     克隆后一键重建补丁 exe(.orig/.patched 不进 git)
-├─ cleanup_vdd.bat      残留虚拟显示器清理(自动 UAC 提权 → 重启 VDA 驱动)
 ├─ install_sw.bat       安装补丁(路径配置 + 备份 .orig + 字节校验;需管理员)
 ├─ restore_sw.bat       回滚到原版
 ├─ boost.bat            日常:SW 未运行则启动 → VDD 升 120 → 退出
@@ -51,7 +50,3 @@ restore_sw.bat            ← 回滚补丁(需管理员)
 3. 都没有 → 提示手动输入完整路径(校验存在后保存)
 
 之后 `boost.bat`/`restore_sw.bat`/`check.bat` 都只读 `swpath.txt`,无需再配置。
-
-## 其他
-
-- 残留虚拟显示器清理(通用):管理员运行 `cleanup_vdd.bat`
