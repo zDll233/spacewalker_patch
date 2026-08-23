@@ -8,15 +8,16 @@ VITURE SpaceWalker 的 120Hz 解锁方案(Windows):眼镜 **2D 视窗 120Hz** + 
 
 ```
 spacewalker_patch/
+├─ make_patched.bat     克隆后一键重建补丁 exe(.orig/.patched 不进 git)
 ├─ install_sw.bat       安装补丁(路径配置 + 备份 .orig + 字节校验;需管理员)
 ├─ restore_sw.bat       回滚到原版
 ├─ boost.bat            日常:SW 未运行则启动 → VDD 升 120 → 退出
 ├─ check.bat            体检:补丁状态 + VDD 刷新率
 ├─ VDDBoost.ps1         助推/体检逻辑本体(纯脚本,自包含)
-├─ SpaceWalker.exe.patched  补丁版(与 .orig 仅 4 字节差异)
-├─ SpaceWalker.exe.orig     原版备份
+├─ SpaceWalker.exe.patched  补丁版(与 .orig 仅 4 字节差异;由 make_patched.bat 生成)
+├─ SpaceWalker.exe.orig     原版备份(由 make_patched.bat 生成)
 ├─ swpath.txt           install_sw.bat 自动生成(路径配置,所有脚本共用)
-├─ bundle_extracted/    bundle 提取(补丁输入源,更新软件后重新提取)
+├─ bundle_extracted/    bundle 提取(补丁输入源,make_patched.bat 自动重建)
 ├─ tools/               项目内工具(ilspycmd、bundleextract3、Mono.Cecil)
 ├─ dotnet/              项目内 .NET SDK(构建补丁用;也可用系统 SDK)
 ├─ patch/ src/ archive/ 开发与逆向资料(见 Agent.md)
@@ -25,12 +26,22 @@ spacewalker_patch/
 ## 用法
 
 ```
+make_patched.bat         ← 克隆后第一步:自动重建补丁 exe(见下方"克隆后使用")
 install_sw.bat            ← 安装补丁 + 路径设置(右键 → 以管理员身份运行;先退出 SpaceWalker)
 boost.bat                 ← 日常:SW 未运行则自动开 SW → VDD 升 120 → 退出(已在运行则跳过启动)
 boost.bat forget          ← 清除记录的路径
 check.bat                 ← 体检:补丁是否在位、VDD 刷新率
 restore_sw.bat            ← 回滚补丁(需管理员)
 ```
+
+**克隆后使用(获取补丁 exe)**:`SpaceWalker.exe.orig/.patched`(共 186MB)不进 git。克隆仓库后运行一次 `make_patched.bat`,它会自动:
+
+1. 从安装目录复制原版 exe 为 `.orig`(校验确为干净原版,若安装目录已是补丁版会提示)
+2. 从 `.orig` 提取 bundle(`bundle_extracted/`)
+3. 构建补丁器并生成 `SpaceWalker.exe.patched`
+4. 然后按正常流程运行 `install_sw.bat` 安装
+
+(需要已安装 SpaceWalker;若想随仓库分发 exe,推荐用 GitHub Releases 挂附件——git 不推荐存 90MB 级二进制。)
 
 **路径设置(首次)**:`install_sw.bat` 按下列顺序确定 SpaceWalker.exe 路径,并保存到 `swpath.txt` 供所有脚本共用:
 
