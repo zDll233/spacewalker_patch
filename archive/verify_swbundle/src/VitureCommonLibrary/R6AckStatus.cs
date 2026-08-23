@@ -1,0 +1,13 @@
+namespace VitureCommonLibrary;
+
+public enum R6AckStatus : byte
+{
+	TF_RSP_OK,
+	TF_RSP_ERROR,
+	TF_RSP_UNKNOWN,
+	TF_RSP_PERMISSION_DENY,
+	TF_RSP_PARAM_INVALID,
+	TF_RSP_DEV_BUSY,
+	TF_RSP_CHECKSUM_ERROR,
+	TF_RSP_NO_DATA
+}

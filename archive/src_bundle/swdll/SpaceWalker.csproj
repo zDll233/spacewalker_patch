@@ -1,0 +1,107 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>SpaceWalker</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>netcoreapp8.0</TargetFramework>
+    <PlatformTarget>x64</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>app.ico</ApplicationIcon>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+    <RootNamespace />
+  </PropertyGroup>
+  <ItemGroup>
+    <None Remove="-AvaloniaResources" />
+    <EmbeddedResource Include="-AvaloniaResources" LogicalName="!AvaloniaResources" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Avalonia.Controls">
+      <HintPath>..\..\bundle_extracted\Avalonia.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog">
+      <HintPath>..\..\bundle_extracted\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.Base">
+      <HintPath>..\..\bundle_extracted\Avalonia.Base.dll</HintPath>
+    </Reference>
+    <Reference Include="ReactiveUI">
+      <HintPath>..\..\bundle_extracted\ReactiveUI.dll</HintPath>
+    </Reference>
+    <Reference Include="VitureCommonLibrary">
+      <HintPath>..\..\bundle_extracted\VitureCommonLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="SpaceWalker.Ipc">
+      <HintPath>..\..\bundle_extracted\SpaceWalker.Ipc.dll</HintPath>
+    </Reference>
+    <Reference Include="Viture.Ipc">
+      <HintPath>..\..\bundle_extracted\Viture.Ipc.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.Wasapi">
+      <HintPath>..\..\bundle_extracted\NAudio.Wasapi.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio">
+      <HintPath>..\..\bundle_extracted\NAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.Labs.Notifications">
+      <HintPath>..\..\bundle_extracted\Avalonia.Labs.Notifications.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reactive">
+      <HintPath>..\..\bundle_extracted\System.Reactive.dll</HintPath>
+    </Reference>
+    <Reference Include="ReactiveUI.Avalonia">
+      <HintPath>..\..\bundle_extracted\ReactiveUI.Avalonia.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.Labs.Controls">
+      <HintPath>..\..\bundle_extracted\Avalonia.Labs.Controls.dll</HintPath>
+    </Reference>
+    <Reference Include="LiteDB">
+      <HintPath>..\..\bundle_extracted\LiteDB.dll</HintPath>
+    </Reference>
+    <Reference Include="GlobalHotKeys.Windows">
+      <HintPath>..\..\bundle_extracted\GlobalHotKeys.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="Svg.Controls.Skia.Avalonia">
+      <HintPath>..\..\bundle_extracted\Svg.Controls.Skia.Avalonia.dll</HintPath>
+    </Reference>
+    <Reference Include="Svg.Model">
+      <HintPath>..\..\bundle_extracted\Svg.Model.dll</HintPath>
+    </Reference>
+    <Reference Include="PostHog">
+      <HintPath>..\..\bundle_extracted\PostHog.dll</HintPath>
+    </Reference>
+    <Reference Include="Sentry">
+      <HintPath>..\..\bundle_extracted\Sentry.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.Markup.Xaml">
+      <HintPath>..\..\bundle_extracted\Avalonia.Markup.Xaml.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.Desktop">
+      <HintPath>..\..\bundle_extracted\Avalonia.Desktop.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.Win32">
+      <HintPath>..\..\bundle_extracted\Avalonia.Win32.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.Fonts.Inter">
+      <HintPath>..\..\bundle_extracted\Avalonia.Fonts.Inter.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio.Core">
+      <HintPath>..\..\bundle_extracted\NAudio.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Options">
+      <HintPath>..\..\bundle_extracted\Microsoft.Extensions.Options.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Http">
+      <HintPath>..\..\bundle_extracted\Microsoft.Extensions.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Extensions.Logging.Abstractions">
+      <HintPath>..\..\bundle_extracted\Microsoft.Extensions.Logging.Abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="Avalonia.Themes.Fluent">
+      <HintPath>..\..\bundle_extracted\Avalonia.Themes.Fluent.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

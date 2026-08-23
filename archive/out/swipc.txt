@@ -1,0 +1,279 @@
+[U280A] ")07>ELSZa
+[U345E] SpaceWalker/Duty
+[U3480] SpaceWalker/Zoom
+[U34A2] SpaceWalker/SetZoom
+[U34CA] SpaceWalker/DisplayFilm
+[U34FA] SpaceWalker/LockYAxis
+[U3526] SpaceWalker/SetBrightness
+[U355A] SpaceWalker/SetVolume
+[U3586] SpaceWalker/Skybox
+[U35AC] SpaceWalker/HandTrack
+[U35D8] SpaceWalker/SmoothFollow
+[U360A] SpaceWalker/Static
+[U3630] SpaceWalker/BrightnessEvent
+[U3668] SpaceWalker/VolumeEvent
+[U3698] SpaceWalker/ZoomEvent
+[U36C4] Recenter
+[U3A65] Recenter
+[U405E] VS_VERSION_INFO
+[U40BA] VarFileInfo
+[U40DA] Translation
+[U40FE] StringFileInfo
+[U4122] 000004b0
+[U413A] CompanyName
+[U4154] SpaceWalker.Ipc
+[U417A] FileDescription
+[U419C] SpaceWalker.Ipc
+[U41C2] FileVersion
+[U41F2] InternalName
+[U420C] SpaceWalker.Ipc.dll
+[U423A] LegalCopyright
+[U4262] OriginalFilename
+[U4284] SpaceWalker.Ipc.dll
+[U42B2] ProductName
+[U42CC] SpaceWalker.Ipc
+[U42F2] ProductVersion
+[U4310] 1.0.0+7580a56dfa56e8c9fe7f6169ec5448c0bdb47a51
+[U4376] Assembly Version
+[A4D] !This program cannot be run in DOS mode.
+[A10D8] v4.0.30319
+[A10FC] #Strings
+[A28E1] <.cctor>b__14_10
+[A28F2] <.cctor>b__14_20
+[A2903] <>c__DisplayClass3_0
+[A2918] <.cctor>b__14_0
+[A2928] <Bind>b__4_0
+[A2935] <>c__DisplayClass4_0
+[A294A] <RecenterMouseAsync>g____encode|4_0
+[A296E] <RecenterAsync>g____encode|0
+[A298B] <.cctor>b__14_11
+[A299C] <.cctor>b__14_21
+[A29AD] <RecenterAsync>g____decode|3_1
+[A29CC] <.cctor>b__14_1
+[A29DC] <Bind>b__4_1
+[A29E9] <>c__DisplayClass4_1
+[A29FE] <RecenterMouseAsync>g____decode|4_1
+[A2A30] TypedTopic`1
+[A2A3D] Nullable`1
+[A2A48] IEquatable`1
+[A2A55] ConfiguredTaskAwaitable`1
+[A2A76] Action`1
+[A2A7F] TopicReader`1
+[A2A8D] AsyncTaskMethodBuilder`1
+[A2AA6] EqualityComparer`1
+[A2AB9] TopicWriter`1
+[A2AC7] <.cctor>b__14_12
+[A2AD8] <.cctor>b__14_22
+[A2AF1] WriteF32
+[A2B02] WriteI32
+[A2B0B] <.cctor>b__14_2
+[A2B1B] <Bind>b__2
+[A2B2D] <.cctor>b__14_13
+[A2B3E] <.cctor>b__14_23
+[A2B4F] <.cctor>b__14_3
+[A2B5F] <Bind>b__3
+[A2B6A] <.cctor>b__14_14
+[A2B7B] <.cctor>b__14_24
+[A2B94] WriteF64
+[A2B9D] <.cctor>b__14_4
+[A2BAD] <.cctor>b__14_15
+[A2BBE] <.cctor>b__14_25
+[A2BCF] <.cctor>b__14_5
+[A2BDF] <.cctor>b__14_16
+[A2BF0] <.cctor>b__14_6
+[A2C00] <.cctor>b__14_17
+[A2C11] <.cctor>b__14_7
+[A2C21] <.cctor>b__14_18
+[A2C41] <.cctor>b__14_8
+[A2C51] <.cctor>b__14_19
+[A2C66] <.cctor>b__14_9
+[A2C76] <Module>
+[A2CD8] StaticCalib
+[A2CE4] Viture.Ipc.Pubsub
+[A2D00] System.Collections.Generic
+[A2D1B] RecenterMouseAsync
+[A2D2E] CallAsync
+[A2D38] RecenterAsync
+[A2D46] Viture.Ipc
+[A2D51] SpaceWalker.Ipc
+[A2D61] Viture.Ipc.Rpc
+[A2D70] <<Bind>b__4_0>d
+[A2D80] <<Bind>b__4_1>d
+[A2D95] AwaitUnsafeOnCompleted
+[A2DAC] get_IsCompleted
+[A2DC7] netstandard
+[A2DD3] RecenterService
+[A2DE3] RecenterSource
+[A2DF9] GetHashCode
+[A2E05] ServiceName
+[A2E11] DisplayName
+[A2E1D] displayName
+[A2E29] SetVolume
+[A2E33] IAsyncStateMachine
+[A2E46] SetStateMachine
+[A2E56] stateMachine
+[A2E63] ValueType
+[A2E6D] RpcClientBase
+[A2E82] LockAxisState
+[A2E90] <>1__state
+[A2EA1] EmbeddedAttribute
+[A2EB3] CompilerGeneratedAttribute
+[A2ECE] AttributeUsageAttribute
+[A2EE6] DebuggableAttribute
+[A2EFA] NullableAttribute
+[A2F0C] AssemblyTitleAttribute
+[A2F23] AsyncStateMachineAttribute
+[A2F3E] DebuggerHiddenAttribute
+[A2F56] AssemblyFileVersionAttribute
+[A2F73] AssemblyInformationalVersionAttribute
+[A2F99] AssemblyConfigurationAttribute
+[A2FB8] CompilationRelaxationsAttribute
+[A2FD8] AssemblyProductAttribute
+[A2FF1] NullableContextAttribute
+[A300A] IsReadOnlyAttribute
+[A301E] AssemblyCompanyAttribute
+[A3037] RuntimeCompatibilityAttribute
+[A305A] FilmAngleValue
+[A3069] VolumeValue
+[A3075] HandTrackValue
+[A3084] ZoomValue
+[A308E] LockAxisValue
+[A309C] BrightnessValue
+[A30AC] SmoothFollowValue
+[A30BE] DutyValue
+[A30D3] System.Threading
+[A30E4] ReadString
+[A30EF] WriteString
+[A30FB] SchemaHash
+[A3106] SkyboxPath
+[A311D] HandTrack
+[A312E] get_Task
+[A3137] rpcChannel
+[A314A] SpaceWalker.Ipc.dll
+[A315E] ReadBool
+[A3167] WriteBool
+[A3196] TimeSpan
+[A319F] CancellationToken
+[A31B9] System.Reflection
+[A31CB] ZoomDirection
+[A31D9] direction
+[A31E3] SetException
+[A31F0] SchemaInfo
+[A31FB] ZoomStep
+[A320F] <>t__builder
+[A321C] RpcResponseBuffer
+[A323C] ConfiguredTaskAwaiter
+[A3252] GetAwaiter
+[A3264] Register
+[A326D] RpcServer
+[A3292] System.Diagnostics
+[A32A5] System.Runtime.CompilerServices
+[A32C5] DebuggingModes
+[A32D4] NullableFlags
+[A32E2] <>4__this
+[A32EC] Microsoft.CodeAnalysis
+[A3303] LockAxis
+[A330C] System.Threading.Tasks
+[A332A] SetBrightness
+[A3338] AttributeTargets
+[A3355] ConfigureAwait
+[A3364] get_Default
+[A3370] RecenterResult
+[A337F] GetResult
+[A3389] SetResult
+[A3393] __result
+[A339C] RecenterClient
+[A33AB] VolumeEvent
+[A33B7] ZoomEvent
+[A33C1] BrightnessEvent
+[A33D7] Viture.Ipc.Transport
+[A33FC] MoveNext
+[A3405] CallContext
+[A3419] SmoothFollow
+[A343A] op_Equality
+[A3446] op_Inequality
+[A3DB0] WrapNonExceptionThrows
+[A3DD4] SpaceWalker.Ipc
+[A3E02] .1.0.0+7580a56dfa56e8c9fe7f6169ec5448c0bdb47a51
+[A3E42] /SpaceWalker.Ipc.RecenterService+<<Bind>b__4_0>d
+[A3E77] /SpaceWalker.Ipc.RecenterService+<<Bind>b__4_1>d
+[A3EB5] AllowMultiple
+[A3EC6] Inherited
+[A3EDC] AllowMultiple
+[A3EED] Inherited
+[A3F64] C:\Works\SpaceWalkerForPC\SpaceWalker.Ipc\obj\x64\Release\netstandard2.0\SpaceWalker.Ipc.pdb
+[A44DD] GlobalSign nv-sa1)0'
+[A44F7]  GlobalSign Code Signing Root R450
+[A451C] 200728000000Z
+[A452B] 300728000000Z0\1
+[A4552] GlobalSign nv-sa1200
+[A456C] )GlobalSign GCC R45 EV CodeSigning CA 20200
+[A485D] -http://ocsp.globalsign.com/codesigningrootr450F
+[A4898] :http://secure.globalsign.com/cacert/codesigningrootr45.crt0A
+[A48E5] 0http://crl.globalsign.com/codesigningrootr45.crl0U
+[A493D] &https://www.globalsign.com/repository/0
+[A4A16] wF*=#}(s
+[A4BC5] GlobalSign nv-sa1200
+[A4BDF] )GlobalSign GCC R45 EV CodeSigning CA 20200
+[A4C0D] 240819182148Z
+[A4C1C] 270820182148Z0
+[A4C37] Private Organization1
+[A4C56] 48075451
+[A4C85] California1
+[A4CA7] California1
+[A4CBC] San Francisco1
+[A4CD4] VITURE INC.1
+[A4CEA] VITURE INC.0
+[A4F53] @http://secure.globalsign.com/cacert/gsgccr45evcodesignca2020.crt0?
+[A4FA1] 3http://ocsp.globalsign.com/gsgccr45evcodesignca20200U
+[A4FFC] &https://www.globalsign.com/repository/0
+[A5049] 6http://crl.globalsign.com/gsgccr45evcodesignca2020.crl0
+[A5310] GlobalSign nv-sa1200
+[A532A] )GlobalSign GCC R45 EV CodeSigning CA 2020
+[A5512] h8u[,zJ}
+[A56B7] 20260731091531Z0
+[A56E9] GlobalSign nv-sa1/0-
+[A5703] &Globalsign R45 TSA for CodeSign 202510
+[A5777] GlobalSign nv-sa1402
+[A5791] +GlobalSign Offline R45 Timestamping CA 20250
+[A57C1] 251015072504Z
+[A57D0] 370110000000Z0Y1
+[A57F7] GlobalSign nv-sa1/0-
+[A5811] &Globalsign R45 TSA for CodeSign 2025100
+[A5A7C] 6http://ocsp.globalsign.com/gsoffliner45timestampca20250O
+[A5AC0] Chttp://secure.globalsign.com/cacert/gsoffliner45timestampca2025.crt0J
+[A5B16] 9http://crl.globalsign.com/gsoffliner45timestampca2025.crl0V
+[A5B81] &https://www.globalsign.com/repository/0
+[A5E05] GlobalSign nv-sa1)0'
+[A5E1F]  GlobalSign Timestamping Root R450
+[A5E44] 250716030504Z
+[A5E53] 410716000000Z0^1
+[A5E7A] GlobalSign nv-sa1402
+[A5E94] +GlobalSign Offline R45 Timestamping CA 20250
+[A6186] +http://ocsp.globalsign.com/timestamprootr450D
+[A61BF] 8http://secure.globalsign.com/cacert/timestamprootr45.crt0?
+[A620A] .http://crl.globalsign.com/timestamprootr45.crl0
+[A649B] GlobalSign Root CA - R61
+[A64BD] GlobalSign1
+[A64D2] GlobalSign0
+[A64E0] 201209000000Z
+[A64EF] 341210000000Z0S1
+[A6516] GlobalSign nv-sa1)0'
+[A6530]  GlobalSign Timestamping Root R450
+[A6812] "http://ocsp2.globalsign.com/rootr60;
+[A6842] /http://secure.globalsign.com/cacert/root-r6.crt06
+[A6884] %http://crl.globalsign.com/root-r6.crl0G
+[A68CC] &https://www.globalsign.com/repository/0
+[A6B40] GlobalSign Root CA - R61
+[A6B62] GlobalSign1
+[A6B77] GlobalSign0
+[A6B85] 141210000000Z
+[A6B94] 341210000000Z0L1 0
+[A6BAE] GlobalSign Root CA - R61
+[A6BD0] GlobalSign1
+[A6BE5] GlobalSign0
+[A70B5] GlobalSign nv-sa1402
+[A70CF] +GlobalSign Offline R45 Timestamping CA 2025
+[A7207] GlobalSign nv-sa1402
+[A7221] +GlobalSign Offline R45 Timestamping CA 2025
+[A72D1] )&3f}P !

@@ -1,0 +1,55 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <GenerateAssemblyInfo>False</GenerateAssemblyInfo>
+    <TargetFramework>net40</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup>
+    <LangVersion>11.0</LangVersion>
+    <AllowUnsafeBlocks>True</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup />
+  <ItemGroup>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\VITURE\SpaceWalker\SpaceWalker.Unity_Data\Managed\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="SpaceWalker.Ipc">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\VITURE\SpaceWalker\SpaceWalker.Unity_Data\Managed\SpaceWalker.Ipc.dll</HintPath>
+    </Reference>
+    <Reference Include="VitureCommonLibrary">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\VITURE\SpaceWalker\SpaceWalker.Unity_Data\Managed\VitureCommonLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="Viture.Ipc">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\VITURE\SpaceWalker\SpaceWalker.Unity_Data\Managed\Viture.Ipc.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\VITURE\SpaceWalker\SpaceWalker.Unity_Data\Managed\UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="uWindowCapture.Runtime">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\VITURE\SpaceWalker\SpaceWalker.Unity_Data\Managed\uWindowCapture.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\VITURE\SpaceWalker\SpaceWalker.Unity_Data\Managed\UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Universal.Runtime">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\VITURE\SpaceWalker\SpaceWalker.Unity_Data\Managed\Unity.RenderPipelines.Universal.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.RenderPipelines.Core.Runtime">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\VITURE\SpaceWalker\SpaceWalker.Unity_Data\Managed\Unity.RenderPipelines.Core.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\VITURE\SpaceWalker\SpaceWalker.Unity_Data\Managed\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\VITURE\SpaceWalker\SpaceWalker.Unity_Data\Managed\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\VITURE\SpaceWalker\SpaceWalker.Unity_Data\Managed\UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>..\..\..\..\..\..\..\..\Program Files\VITURE\SpaceWalker\SpaceWalker.Unity_Data\Managed\UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+using System.CodeDom.Compiler;
+
+namespace Windows.Win32.Devices.Display;
+
+[GeneratedCode("Microsoft.Windows.CsWin32", "0.3.275+02bc0c298e.RR")]
+public enum DISPLAYCONFIG_ROTATION
+{
+	DISPLAYCONFIG_ROTATION_IDENTITY = 1,
+	DISPLAYCONFIG_ROTATION_ROTATE90,
+	DISPLAYCONFIG_ROTATION_ROTATE180,
+	DISPLAYCONFIG_ROTATION_ROTATE270
+}

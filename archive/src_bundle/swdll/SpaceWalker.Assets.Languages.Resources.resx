@@ -1,0 +1,234 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+<resheader name="resmimetype"><value>text/microsoft-resx</value></resheader><resheader name="version"><value>1.3</value></resheader><resheader name="reader"><value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><resheader name="writer"><value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value></resheader><data name="SpaceWalker" xml:space="preserve"><value>SpaceWalker</value></data>
+  <data name="Connected" xml:space="preserve"><value>Connected</value></data>
+  <data name="ZoomOutHeader" xml:space="preserve"><value>Move Displays Further</value></data>
+  <data name="FirmwareUpdate" xml:space="preserve"><value>Firmware Update</value></data>
+  <data name="NewFWVersion" xml:space="preserve"><value>New Glass Firmware Update
+Available</value></data>
+  <data name="LakeEltonHeader" xml:space="preserve"><value>Lake Elton</value></data>
+  <data name="Enable" xml:space="preserve"><value>Enable</value></data>
+  <data name="FeedbackSubmitFailed" xml:space="preserve"><value>Failed to submit feedback.</value></data>
+  <data name="SwitchToUltraWide" xml:space="preserve"><value>Switch to Ultra Wide</value></data>
+  <data name="NewVersion" xml:space="preserve"><value>New Version:</value></data>
+  <data name="FAQHeader" xml:space="preserve"><value>FAQ</value></data>
+  <data name="DisplayLayoutsHeader" xml:space="preserve"><value>Extend Mode</value></data>
+  <data name="MirrorDisplays" xml:space="preserve"><value>Mirror Displays</value></data>
+  <data name="ReduceMotionBlurHeader" xml:space="preserve"><value>Reduce Motion Blur</value></data>
+  <data name="Upgrade" xml:space="preserve"><value>Upgrade</value></data>
+  <data name="Disconnected" xml:space="preserve"><value>Disconnected</value></data>
+  <data name="IMUCalibration" xml:space="preserve"><value>IMU Calibration</value></data>
+  <data name="PickRefreshRate" xml:space="preserve"><value>Pick Your Refresh Rate</value></data>
+  <data name="DifferentLayouts" xml:space="preserve"><value>Different Layouts</value></data>
+  <data name="LockYHeader" xml:space="preserve"><value>Pitch</value></data>
+  <data name="ShortcutsApplied" xml:space="preserve"><value>Shortcuts applied successfully.</value></data>
+  <data name="LayoutTypeDisabledExtendOnly" xml:space="preserve"><value>Current layout mode only supports Extend mode</value></data>
+  <data name="ScreenSizeExtraLarge" xml:space="preserve"><value>Extra Large</value></data>
+  <data name="ScreenSizeLarge" xml:space="preserve"><value>Large</value></data>
+  <data name="Unlocked" xml:space="preserve"><value>Unlocked</value></data>
+  <data name="ScreenSizeSmall" xml:space="preserve"><value>Small</value></data>
+  <data name="GestureTracking" xml:space="preserve"><value>Gesture tracking</value></data>
+  <data name="PLPExtentedHeader" xml:space="preserve"><value>Portrait-Landscape-Portrait Extented</value></data>
+  <data name="Commit" xml:space="preserve"><value>Submit</value></data>
+  <data name="LayoutTypeDisabledNoMonitor" xml:space="preserve"><value>No external display detected</value></data>
+  <data name="Cancel" xml:space="preserve"><value>Cancel</value></data>
+  <data name="SwitchBetween" xml:space="preserve"><value>Switch Between</value></data>
+  <data name="HelpHeader" xml:space="preserve"><value>Legal &amp; Help</value></data>
+  <data name="ExitConfirmContent" xml:space="preserve"><value>This will close all virtual screens and quit the app.</value></data>
+  <data name="ChangeSpaceWalkerLayout" xml:space="preserve"><value>Change Screen Layout</value></data>
+  <data name="StartCalibration" xml:space="preserve"><value>Start Calibration</value></data>
+  <data name="Ignore" xml:space="preserve"><value>Ignore</value></data>
+  <data name="RecenterDisplays" xml:space="preserve"><value>Recenter Displays</value></data>
+  <data name="IncreaseVolume" xml:space="preserve"><value>Increase Volume</value></data>
+  <data name="NotNow" xml:space="preserve"><value>Not Now</value></data>
+  <data name="DesktopConnectTips" xml:space="preserve"><value>Click here to learn how to connect to a desktop computer without a USB-C port</value></data>
+  <data name="Locked" xml:space="preserve"><value>Locked</value></data>
+  <data name="RestoreDefaultSettings" xml:space="preserve"><value>Restore Default Settings</value></data>
+  <data name="Update" xml:space="preserve"><value>Update</value></data>
+  <data name="UltraWide" xml:space="preserve"><value>Ultrawide Panoramic</value></data>
+  <data name="IssuseTips" xml:space="preserve"><value>Describe the issue along with the steps to reproduce it.</value></data>
+  <data name="PrivacyPolicyHeader" xml:space="preserve"><value>Privacy Policy</value></data>
+  <data name="StaticCalibrationToast" xml:space="preserve"><value>Keep your XR Glasses connected to your computer, and put them on a flat surface for several seconds. The XR Glasses can calibrate themselves and provide a better 3DoF performance. You can use this method if the displays are not fixed in the spatial position everytime.</value></data>
+  <data name="ThemePhantomBladeZero" xml:space="preserve"><value>Phantom Blade Zero</value></data>
+  <data name="ResetDefaults" xml:space="preserve"><value>Reset Defaults</value></data>
+  <data name="General" xml:space="preserve"><value>General</value></data>
+  <data name="ScreenScaleHelp" xml:space="preserve"><value>Use Two Hands To Pinch And Drag</value></data>
+  <data name="NoDPConnect" xml:space="preserve"><value>Glasses connected, but no video output. The current USB-C port may not support video output (DP Alt Mode), or the cable connection may be loose. Try a different port or cable.</value></data>
+  <data name="ViewTutorial" xml:space="preserve"><value>View Tutorial</value></data>
+  <data name="VolumeHeader" xml:space="preserve"><value>Glasses Volume</value></data>
+  <data name="ExtendDesktop" xml:space="preserve"><value>Extend Desktop</value></data>
+  <data name="ThemeDefault" xml:space="preserve"><value>Default</value></data>
+  <data name="DontUnplugTips" xml:space="preserve"><value>Do not unplug the connection or quit the app until complete...</value></data>
+  <data name="BrightnessHeader" xml:space="preserve"><value>Glasses Brightness</value></data>
+  <data name="CustomHotkey" xml:space="preserve"><value>Custom Shortcut Keys</value></data>
+  <data name="CustomHeader" xml:space="preserve"><value>Custom</value></data>
+  <data name="MoveDisplays" xml:space="preserve"><value>Move Displays</value></data>
+  <data name="Connecting" xml:space="preserve"><value>Connecting</value></data>
+  <data name="ConnectionFailed" xml:space="preserve"><value>Connection failed</value></data>
+  <data name="SmoothFollowHeader" xml:space="preserve"><value>Smooth Follow</value></data>
+  <data name="AlreadyLastestFM" xml:space="preserve"><value>Your VITURE XR Glasses is already up to date</value></data>
+  <data name="AlreadyLastestSW" xml:space="preserve"><value>Your SpaceWalker is already up to date</value></data>
+  <data name="TermsOfServiceHeader" xml:space="preserve"><value>Terms of Service</value></data>
+  <data name="UpdateDialogText" xml:space="preserve"><value>A new version of SpaceWalker is available
+with improvements and bug fixes.
+Would you like to update now?</value></data>
+  <data name="RecenterToast" xml:space="preserve"><value>Displays recentered.</value></data>
+  <data name="ShortcutsRestored" xml:space="preserve"><value>Shortcuts restored.</value></data>
+  <data name="OfCourse" xml:space="preserve"><value>Of Course</value></data>
+  <data name="SelectRefreshRate" xml:space="preserve"><value>Refresh Rate</value></data>
+  <data name="UpdateSuccess" xml:space="preserve"><value>Update successful. Please unplug your glasses to complete the upgrade process.</value></data>
+  <data name="BlueWaterHeader" xml:space="preserve"><value>Blue Water</value></data>
+  <data name="GetProXRGlasses" xml:space="preserve"><value>Get Beast XR Glasses</value></data>
+  <data name="ConnectXRGlasses2" xml:space="preserve"><value>Connecting to your glasses…</value></data>
+  <data name="VisualLockHeader" xml:space="preserve"><value>Visual Lock</value></data>
+  <data name="ReviewReleaseNote" xml:space="preserve"><value>Please review the release notes of the latest firmware.</value></data>
+  <data name="LockZHeader" xml:space="preserve"><value>Roll</value></data>
+  <data name="WaitTips" xml:space="preserve"><value>Please Wait...</value></data>
+  <data name="Confirm" xml:space="preserve"><value>Confirm</value></data>
+  <data name="ThreeDisplaysSBS" xml:space="preserve"><value>3 Displays Side by Side</value></data>
+  <data name="HotkeyConflict" xml:space="preserve"><value>Shortcut key is invalid or conflict</value></data>
+  <data name="TwoDisplaysSBS" xml:space="preserve"><value>2 Displays Side by Side</value></data>
+  <data name="FeedbackSubmitSuccess" xml:space="preserve"><value>Feedback submitted successfully.</value></data>
+  <data name="JumpToWebOta" xml:space="preserve"><value>Firmware update available for your VITURE XR Glasses. Please use the browser to update the firmware. Tap OK and {APP_NAME} will close automatically and open the update page in your browser. After the update is complete, reopen {APP_NAME} to enjoy the XR experience.</value></data>
+  <data name="Updating" xml:space="preserve"><value>Updating </value></data>
+  <data name="CheckFirmwareUpdate" xml:space="preserve"><value>Check Firmware Update</value></data>
+  <data name="UpdateNow" xml:space="preserve"><value>Update Now</value></data>
+  <data name="UpdateFailed" xml:space="preserve"><value>Update failed</value></data>
+  <data name="ThreeStackedHeader" xml:space="preserve"><value>3 Stacked Displays</value></data>
+  <data name="StayConnected" xml:space="preserve"><value>Stay Connected</value></data>
+  <data name="SingleDisplay" xml:space="preserve"><value>Single Display</value></data>
+  <data name="RecenterHeader" xml:space="preserve"><value>Recenter Displays</value></data>
+  <data name="BuiltInDisplayHeader" xml:space="preserve"><value>Built-in Display</value></data>
+  <data name="TrayTips" xml:space="preserve"><value>Click the app icon located in the tray area to access display settings for your virtual desktops.</value></data>
+  <data name="Disable" xml:space="preserve"><value>Disable</value></data>
+  <data name="CustomizeVirtualDesktop" xml:space="preserve"><value>Customize Your Virtual Desktop</value></data>
+  <data name="IHaveSwitched" xml:space="preserve"><value>I've Switched</value></data>
+  <data name="ChangeBackground" xml:space="preserve"><value>Change Background</value></data>
+  <data name="SingleExtentedHeader" xml:space="preserve"><value>Single Display Extented</value></data>
+  <data name="SwitchToUltraWideTips" xml:space="preserve"><value>Please switch the display mode to Ultra Wide via the VITURE Beast OSD menu, then click below to continue.</value></data>
+  <data name="CommingSoon" xml:space="preserve"><value>Coming Soon</value></data>
+  <data name="QuitHeader" xml:space="preserve"><value>Quit</value></data>
+  <data name="OK" xml:space="preserve"><value>OK</value></data>
+  <data name="HeadTrackingCorrection" xml:space="preserve"><value>Head Tracking Correction</value></data>
+  <data name="VddDriverHungRestart" xml:space="preserve"><value>SpaceWalker can't create the virtual display.
+
+The virtual display driver appears to be unresponsive. Please restart your computer, then try again.</value></data>
+  <data name="ScreenSizeUltraLarge" xml:space="preserve"><value>Ultra Large</value></data>
+  <data name="Reinstall" xml:space="preserve"><value>Reinstall</value></data>
+  <data name="UltraWideMode" xml:space="preserve"><value>Ultra Wide Mode</value></data>
+  <data name="Email" xml:space="preserve"><value>Your email:</value></data>
+  <data name="About" xml:space="preserve"><value>About</value></data>
+  <data name="Apply" xml:space="preserve"><value>Apply Changes</value></data>
+  <data name="Close" xml:space="preserve"><value>Close</value></data>
+  <data name="Issue" xml:space="preserve"><value>Description</value></data>
+  <data name="Later" xml:space="preserve"><value>Later</value></data>
+  <data name="CommunicationFailed" xml:space="preserve"><value>Video is working, but the app can't communicate with your glasses. Try a different USB-C port or use the original cable. If you're using a hub or dock, make sure it meets the requirements.</value></data>
+  <data name="Theme" xml:space="preserve"><value>Theme</value></data>
+  <data name="Feedback" xml:space="preserve"><value>Feedback</value></data>
+  <data name="ThreeMirroredHeader" xml:space="preserve"><value>3 Displays Mirrored</value></data>
+  <data name="LayoutTypeDisabledMirrorOnly" xml:space="preserve"><value>Current layout mode only supports Mirror mode</value></data>
+  <data name="LeaveReview" xml:space="preserve"><value>Leave A Review</value></data>
+  <data name="FeedbackHeader" xml:space="preserve"><value>Send Feedback</value></data>
+  <data name="CloserOrFurther" xml:space="preserve"><value>Closer Or Further</value></data>
+  <data name="VSyncTips" xml:space="preserve"><value>To reduce screen tearing, please enable VSync.</value></data>
+  <data name="ReConnectGlasses" xml:space="preserve"><value>Press and hold the L+ and L- buttons while connecting the Glasses to your computer (see diagram below). Then, retry the update to recovery your glasses.</value></data>
+  <data name="ChangeLayout" xml:space="preserve"><value>Change Layout</value></data>
+  <data name="GlassesControlHeader" xml:space="preserve"><value>Glasses Control</value></data>
+  <data name="ZoomInHeader" xml:space="preserve"><value>Move Displays Closer</value></data>
+  <data name="SingleMirroredHeader" xml:space="preserve"><value>Single Display Mirrored</value></data>
+  <data name="ScreenScale" xml:space="preserve"><value>Screen Scale</value></data>
+  <data name="ScreenDistance" xml:space="preserve"><value>Screen Distance</value></data>
+  <data name="SvsDebug" xml:space="preserve"><value>Display debug information</value></data>
+  <data name="EmailTips" xml:space="preserve"><value>Input your email</value></data>
+  <data name="Settings" xml:space="preserve"><value>Settings</value></data>
+  <data name="HighRefresh" xml:space="preserve"><value>For High Refresh Rate!</value></data>
+  <data name="EnjoyUsing" xml:space="preserve"><value>Do you enjoy using XR Glasses?</value></data>
+  <data name="CurrentVersion" xml:space="preserve"><value>Current Version:</value></data>
+  <data name="SolutionsForScreenTearing" xml:space="preserve"><value>Fix Screen Tearing Issues</value></data>
+  <data name="TwoMirroredHeader" xml:space="preserve"><value>2 Displays Mirrored</value></data>
+  <data name="HandGestureHelp" xml:space="preserve"><value>Hand Gesture in SpaceWalker</value></data>
+  <data name="EverestHeader" xml:space="preserve"><value>Everest</value></data>
+  <data name="UltraWideHeader" xml:space="preserve"><value>Ultrawide Panoramic</value></data>
+  <data name="PortraitLandscapePortrait" xml:space="preserve"><value>Portrait-Landscape-Portrait</value></data>
+  <data name="ResetAllSettingsConfirmContent" xml:space="preserve"><value>This will restore all settings to their defaults. This action cannot be undone.</value></data>
+  <data name="DecreaseVolume" xml:space="preserve"><value>Decrease Volume</value></data>
+  <data name="ShowMainWindow" xml:space="preserve"><value>Show SpaceWalker Main Window</value></data>
+  <data name="SelectWallpaper" xml:space="preserve"><value>Select Wallpaper</value></data>
+  <data name="CalibrateTips" xml:space="preserve"><value>Calibrate your XR Glasses to ensure accurate tracking of your head movements and a smoother, more immersive experience,
+Additionally, Luma Ultra XR Glasses doesn't require IMU calibration.</value></data>
+  <data name="ConnectTips2" xml:space="preserve"><value>This usually takes a few seconds. Keep the cable connected — you'll be taken to the layout selection page once it's done.</value></data>
+  <data name="HighDPIScaleHeader" xml:space="preserve"><value>High DPI Scaling</value></data>
+  <data name="ThreeStackedDisplays" xml:space="preserve"><value>3 Stacked Displays</value></data>
+  <data name="ExitConfirmTitle" xml:space="preserve"><value>Exit SpaceWalker?</value></data>
+  <data name="LockXHeader" xml:space="preserve"><value>Yaw</value></data>
+  <data name="ConnectTips" xml:space="preserve"><value>Use the original cable to connect your glasses to a USB-C port that supports video output (DP Alt Mode).</value></data>
+  <data name="LaunchSpaceWalker" xml:space="preserve"><value>Launch</value></data>
+  <data name="DecreaseBrightness" xml:space="preserve"><value>Decrease Brightness</value></data>
+  <data name="ThreeExtendedHeader" xml:space="preserve"><value>3 Displays Extended</value></data>
+  <data name="ScreenSizeMedium" xml:space="preserve"><value>Medium</value></data>
+  <data name="SelectSkin" xml:space="preserve"><value>Select Skin</value></data>
+  <data name="RecenterViewHelp" xml:space="preserve"><value>Face Your Palm Up And Make A Fist.</value></data>
+  <data name="RefreshRate90Hz" xml:space="preserve"><value>90Hz</value></data>
+  <data name="RefreshRate60Hz" xml:space="preserve"><value>60Hz</value></data>
+  <data name="LayoutTypeDisabledTurnOffBuiltIn" xml:space="preserve"><value>Built-in display is turned off, forced to Extend mode</value></data>
+  <data name="NotReally" xml:space="preserve"><value>Not Really</value></data>
+  <data name="CustomAngle" xml:space="preserve"><value>Detection Angle</value></data>
+  <data name="NoneHeader" xml:space="preserve"><value>None</value></data>
+  <data name="CheckUpdatesHeader" xml:space="preserve"><value>Check for updates</value></data>
+  <data name="WithAClick" xml:space="preserve"><value>With A Click</value></data>
+  <data name="ShakeCursorHeader" xml:space="preserve"><value>Shake Cursor to Center</value></data>
+  <data name="UpdateProGlassesTips" xml:space="preserve"><value>Unlock 120Hz and a larger display (135'' 3 meters away) with Beast XR Glasses.</value></data>
+  <data name="Submitting" xml:space="preserve"><value>Submitting...</value></data>
+  <data name="CalibrationHeader" xml:space="preserve"><value>XR Glasses Calibration</value></data>
+  <data name="LockHeader" xml:space="preserve"><value>Direction Lock</value></data>
+  <data name="XRGlassesControlHeader" xml:space="preserve"><value>XR Glasses Control</value></data>
+  <data name="ReinstallDriverDialogText" xml:space="preserve"><value>SpaceWalker has detected an issue
+with the virtual display driver.
+
+To resolve this, would you like to reinstall the driver?</value></data>
+  <data name="HeadDownHeader" xml:space="preserve"><value>Head-down Transparency</value></data>
+  <data name="UpdateGlasses" xml:space="preserve"><value>Updating XR Glasses</value></data>
+  <data name="ConnectXRGlasses" xml:space="preserve"><value>Connect Your VITURE XR Glasses</value></data>
+  <data name="Shortcuts" xml:space="preserve"><value>Shortcuts</value></data>
+  <data name="RefreshRate120Hz" xml:space="preserve"><value>120Hz</value></data>
+  <data name="PLPMirroredHeader" xml:space="preserve"><value>Portrait-Landscape-Portrait Mirrored</value></data>
+  <data name="CalibratedToast" xml:space="preserve"><value>Calibrated. If drifting occurs, return head to starting position
+and press.</value></data>
+  <data name="HandGestureInteraction" xml:space="preserve"><value>Hand Gesture Interaction</value></data>
+  <data name="TwoExtendedHeader" xml:space="preserve"><value>2 Displays Extended</value></data>
+  <data name="SelectALayout" xml:space="preserve"><value>Virtual Display Layout</value></data>
+  <data name="IncreaseBrightness" xml:space="preserve"><value>Increase Brightness</value></data>
+  <data name="NothernLightsHeader" xml:space="preserve"><value>Nothern Lights</value></data>
+  <data name="Back" xml:space="preserve"><value>Back</value></data>
+  <data name="NEXT" xml:space="preserve"><value>NEXT</value></data>
+  <data name="Home" xml:space="preserve"><value>Home</value></data>
+  <data name="ScreenSize" xml:space="preserve"><value>Screen Size</value></data>
+  <data name="ExitConfirmOk" xml:space="preserve"><value>Exit</value></data>
+  </root>

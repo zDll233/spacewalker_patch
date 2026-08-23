@@ -1,0 +1,12 @@
+using System.CodeDom.Compiler;
+
+namespace Windows.Win32.Devices.Display;
+
+[GeneratedCode("Microsoft.Windows.CsWin32", "0.3.275+02bc0c298e.RR")]
+public enum DISPLAYCONFIG_TOPOLOGY_ID
+{
+	DISPLAYCONFIG_TOPOLOGY_INTERNAL = 1,
+	DISPLAYCONFIG_TOPOLOGY_CLONE = 2,
+	DISPLAYCONFIG_TOPOLOGY_EXTEND = 4,
+	DISPLAYCONFIG_TOPOLOGY_EXTERNAL = 8
+}

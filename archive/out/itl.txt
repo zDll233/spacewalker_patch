@@ -1,0 +1,98 @@
+[UAE2] InstallTool start: args=[
+[UB1A] -getMlDevice
+[UB34] MlDevice: 
+[UB4A] -installDotnetRuntime
+[UB76] DotnetRuntime result: 
+[U1096] VS_VERSION_INFO
+[U10F2] VarFileInfo
+[U1112] Translation
+[U1136] StringFileInfo
+[U115A] 000004b0
+[U1172] CompanyName
+[U118C] InstallTool
+[U11AA] FileDescription
+[U11CC] InstallTool
+[U11EA] FileVersion
+[U121A] InternalName
+[U1234] InstallTool.dll
+[U125A] LegalCopyright
+[U1282] OriginalFilename
+[U12A4] InstallTool.dll
+[U12CA] ProductName
+[U12E4] InstallTool
+[U1302] ProductVersion
+[U1320] 1.0.0+7580a56dfa56e8c9fe7f6169ec5448c0bdb47a51
+[U1386] Assembly Version
+[A4D] !This program cannot be run in DOS mode.
+[A338] v4.0.30319
+[A35C] #Strings
+[A685] IEnumerable`1
+[A69A] TaskAwaiter`1
+[A6A8] <Module>
+[A6B1] System.Collections.Generic
+[A6CC] EnsureInstallerAsync
+[A6E1] EnsureModelFilesAsync
+[A6F7] AppendFormatted
+[A707] GetMlDevice
+[A713] Enumerable
+[A71E] System.Console
+[A72D] System.Runtime
+[A73C] WriteLine
+[A746] STAThreadAttribute
+[A759] DebuggableAttribute
+[A76D] AssemblyTitleAttribute
+[A784] TargetFrameworkAttribute
+[A79D] SupportedOSPlatformAttribute
+[A7BA] TargetPlatformAttribute
+[A7D2] AssemblyFileVersionAttribute
+[A7EF] AssemblyInformationalVersionAttribute
+[A815] AssemblyConfigurationAttribute
+[A834] RefSafetyRulesAttribute
+[A84C] CompilationRelaxationsAttribute
+[A86C] AssemblyProductAttribute
+[A885] NullableContextAttribute
+[A89E] AssemblyCompanyAttribute
+[A8B7] RuntimeCompatibilityAttribute
+[A8D5] System.Runtime.Versioning
+[A8F6] AppendLiteral
+[A904] InstallTool.dll
+[A914] InstallTool
+[A939] System.Reflection
+[A950] System.Linq
+[A95C] ToStringAndClear
+[A96D] InitializeConsoleLogger
+[A985] DefaultInterpolatedStringHandler
+[A9A6] VitureCommonLibrary.Helper
+[A9C1] MlDeviceHelper
+[A9D0] ModelFileHelper
+[A9E0] DotnetRuntimeInstallerHelper
+[A9FD] GetAwaiter
+[AA0E] System.Diagnostics
+[AA21] System.Runtime.CompilerServices
+[AA41] DebuggingModes
+[AA55] System.Threading.Tasks
+[AA7F] FirstOrDefault
+[AA8E] CdnPackageInstallerResult
+[AAA8] GetResult
+[AAB2] Environment
+[AABE] VitureCommonLibrary
+[AAD2] op_Equality
+[AC90] WrapNonExceptionThrows
+[ACB4] .NETCoreApp,Version=v8.0
+[ACD1] FrameworkDisplayName
+[ACE6] .NET 8.0
+[ACF2] InstallTool
+[AD1C] .1.0.0+7580a56dfa56e8c9fe7f6169ec5448c0bdb47a51
+[AD51] Windows7.0
+[ADE0] C:\Works\SpaceWalkerForPC\InstallerTool\obj\x64\Release\net8.0-windows\win-x64\InstallTool.pdb
+[A13CB] <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+[A1406] <assembly xmlns="urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">
+[A1451]   <assemblyIdentity version="1.0.0.0" name="MyApplication.app"/>
+[A1493]   <trustInfo xmlns="urn:schemas-microsoft-com:asm.v2">
+[A14CB]     <security>
+[A14DB]       <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+[A1521]         <requestedExecutionLevel level="asInvoker" uiAccess="false"/>
+[A1568]       </requestedPrivileges>
+[A1586]     </security>
+[A1597]   </trustInfo>
+[A15A7] </assembly>

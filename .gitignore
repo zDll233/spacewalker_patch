@@ -1,0 +1,26 @@
+# ============ .NET ============
+**/bin/
+**/obj/
+
+# .NET SDK(714MB,勿提交;两个 patch 项目构建依赖它,
+# 克隆后在 re_dump/dotnet 放一份 SDK 即可,或用系统安装的 dotnet)
+/dotnet/
+
+# ============ 可再生成的大件 ============
+# 单文件 bundle 提取(可用 bundleextract3 从 exe 重新提取,见各 Agent.md)
+**/bundle_extracted/
+
+# 补丁/原版 exe(93MB/64MB;.orig 可从安装目录复制,.patched 按 Agent.md 重建)
+*.exe.orig
+*.exe.patched
+*.bak*
+*.save*
+
+# ============ 本机路径配置 ============
+# install 脚本自动生成,机器相关,不入库
+swpath.txt
+i3dpath.txt
+
+# ============ 临时 ============
+*.tmp
+*.log

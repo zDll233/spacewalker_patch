@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <AssemblyName>swpatch</AssemblyName>
+    <RootNamespace>swpatch</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Remove="**/*.cs" />
+    <Compile Include="swpatch.cs" />
+    <Reference Include="Mono.Cecil">
+      <HintPath>..\tools\.store\ilspycmd\8.2.0.7535\ilspycmd\8.2.0.7535\tools\net6.0\any\Mono.Cecil.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+</Project>
