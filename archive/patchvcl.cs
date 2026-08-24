@@ -9,7 +9,7 @@ class PatchVcl
     static int Main(string[] args)
     {
         string src = args.Length > 0 ? args[0] : @"C:\Program Files\VITURE\SpaceWalker\VitureCommonLibrary.dll";
-        string outp = args.Length > 1 ? args[1] : @"C:\Users\<user>\zdlRepository\viture_patch\spacewalker_patch\archive\VitureCommonLibrary.dll.patched";
+        string outp = args.Length > 1 ? args[1] : Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.UserProfile), "zdlRepository", "viture_patch", "spacewalker_patch", "archive", "VitureCommonLibrary.dll.patched");
 
         Directory.CreateDirectory(Path.GetDirectoryName(outp));
         var asm = AssemblyDefinition.ReadAssembly(src);

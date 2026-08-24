@@ -33,7 +33,7 @@ set "PROC2=SpaceWalker.Unity.exe"
 goto run
 
 :usei3d
-set "APPDIR=C:\Users\<user>\AppData\Local\Programs\VITURE\Immersive3D"
+set "APPDIR=%LOCALAPPDATA%\Programs\VITURE\Immersive3D"
 set "EXE=Immersive3D.exe"
 set "PROC1=Immersive3D.exe"
 set "PROC2=Immersive3D.App.exe"
